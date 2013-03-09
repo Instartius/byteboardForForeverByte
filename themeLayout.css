@@ -1,0 +1,653 @@
+/*
+ Theme Name: ByteBoard
+ Author: Instartius Corporation
+ Description:
+ Version: 1.0.1
+ */
+
+/*----------------------------------------------
+ Typography
+ ----------------------------------------------*/
+
+	/*----- Headers -----*/
+	
+	.serif, cite, blockquote, h1, h2, h3, h4, h5, h6 {
+		font-family: "OswaldBook", Helvetica, "Book Antiqua", sans-serif;
+		font-style: normal;
+	}
+	.post h2, .post h3, .post h4, .post h5, .post h6 {
+		margin: 14px 12px 12px;
+	}
+	.monospace, var, code {
+		font-family: "Consolas", courier new, courier, monospace;
+	}
+	.amp {
+		font-style: italic;
+		font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+		font-weight: normal;
+	}
+	/*----- Content UL -----*/
+	
+	.post-content ul, .post-content ol {
+		padding-left: 24px;
+	}
+		padding-bottom: 5px;
+	}
+	/*----- Inputs -----*/
+	
+	blockquote {
+		border-top: 1px #ccc dotted;
+		border-bottom: 1px #ccc dotted;
+		text-align: justify;
+		margin: 20px;
+		padding: 12px;
+	}
+		blockquote:first-letter {
+			font-size: 24px;
+			padding-right: 1px;
+		}
+		blockquote:first-line {
+			font-size: 20px;
+		}
+		
+/*----------------------------------------------
+ General layout
+ ----------------------------------------------*/
+
+	body {
+		/*Specific background theme*/
+	}
+	#if-logged-in .container {
+		margin-top: -24px;
+	}
+	.container {
+		/*LessFramework propierties*/
+	}
+	.hide {
+		display: none;
+	}
+	
+/*----------------------------------------------
+ Header
+ ----------------------------------------------*/
+
+	#header {
+		/*Specific theme*/
+	}
+		/*----- Title -----*/
+	
+		#title {
+			display: block;
+			float: left;
+			margin-top: 12px;
+		}
+		#logo {
+			height: 80px;
+			width: 256px;
+		}
+		#logo img {
+			height: 100%;
+			width: 100%;
+		}
+		#tagline {
+			display: none;
+		}
+		/*----------------Advert------------------*/
+		
+		#header-advert {
+			margin: 10px 0 10px 0;
+			height: 90px;
+			width: 728px;
+			float: right;
+		}
+		
+/*----------------------------------------------
+ Main menu
+ ----------------------------------------------*/
+	
+	#nav-primary {
+		clear: both;
+		width: 100%;
+	}
+	#nav-primary ul, #nav-primary li {
+		list-style: none;
+	}
+	#nav-primary ul {
+		/*Color*/
+	}
+	#nav-primary li {
+		float: left;
+		display: block;
+		padding: 8px 15px 8px 15px;
+	}
+		#nav-primary li a {
+			font-style:normal;
+			font-size:13px;
+			text-transform: uppercase;
+			font-family: "OswaldBook", Arial, Helvetica, sans-serif;
+		}
+		#nav-primary li:hover {
+			
+		}
+	#widget-header {
+		clear: both;
+	}
+	
+	/*--------------Search----------------*/
+	
+	#nav-primary .search {
+		float: right;
+		position: relative;
+	}
+	#nav-primary .search label {
+		display: none;
+	}
+	#nav-primary .search input#s {
+		padding: 5px;
+		border-radius: 3px;
+	}
+	
+		#nav-primary .search input#s:focus {
+			
+		}
+		#nav-primary .search input#searchsubmit {
+			position: absolute;
+			right: 5px;
+			top: 5px;
+			z-index: 1;
+			text-indent: -99999px;
+			height: 20px;
+			width: 20px;
+			border: none;
+		}
+		#nav-primary .search input#searchsubmit:hover {
+			cursor: pointer;
+		}
+	
+	
+	
+/*----------------------------------------------
+	Slider
+----------------------------------------------*/
+
+	#slider{
+	    margin-top: 10px;
+	    overflow:hidden;
+	}
+	
+	.container-slider{
+	    width: 660px;
+	    border-radius: 5px;
+	    padding: 4px;
+	    float: left;
+	}
+	
+		.container-slider ul{
+		    list-style: none;
+		}
+		
+		.container-slider ul li{
+		    height: 250px;
+		    width: 660px;
+		    position:relative;
+		}
+		
+		.container-slider ul li img{
+		    margin-left: auto;
+			margin-right: auto;
+			display: block;
+			vertical-align: middle;
+			max-width:660px; 
+			max-height:250px;	
+			border-radius: 5px;
+		}
+		
+		.container-slider ul li .title-slide{
+		    width: 100%;
+		    position: absolute;
+		    bottom:0px;
+		    height: auto;
+		    border-radius: 0px 0px 3px 3px;
+		}
+		
+		.container-slider ul li .title-slide p{
+			font-weight:bold;
+		    padding: 15px;
+		}
+		
+	
+/*----------------------------------------------
+	Carrousel
+----------------------------------------------*/
+
+	.container-carrousel{
+	    width: 376px;
+	    margin: 0px 0px 5px 0px;
+	    border-radius: 5px;
+	    padding: 4px 4px 9px 4px;
+	    float: right;
+	}
+	
+	.container-carrousel ul{
+	    list-style: none;
+	}
+	
+	.container-carrousel ul li{
+	    height: 100px;
+	    width: 100px;
+	    position:relative;	    
+	}
+	
+	
+		.container-carrousel ul li .title-item-carrousel{
+			padding:5px;
+			position:absolute;
+			height: 100%;
+		    width: 100%;
+		    top:0;
+		    border-radius: 0px 0px 3px 3px;
+		    opacity: 0;
+		    font-weight:bold;
+		    font-size:11px;
+		}
+		
+		.container-carrousel ul li .title-item-carrousel:hover{
+			opacity: 1;
+		}
+	
+		
+		
+	.container-carrousel .bx-window{
+		position:absolute;
+		left:22px;
+	}
+	
+	.container-carrousel .bx-prev{
+		position: absolute;
+		top: 45px;
+		left: 2px;
+		width: 19px;
+		height: 19px;
+		text-indent: -999999px;
+	}
+	
+	.container-carrousel .bx-prev:hover{
+	
+	}
+	
+	.container-carrousel .bx-next{
+		position: absolute;
+		top: 45px;
+		left: 355px;
+		width: 19px;
+		height: 19px;
+		text-indent: -999999px;
+	}
+	
+	.container-carrousel .bx-next:hover{
+	}
+
+/*----------------------------------------------
+	Featured
+----------------------------------------------*/
+
+	.container-featured{
+	    width: 376px;
+	    height: 120px;
+	    margin: 0px 0px 5px 12px;
+	    border-radius: 5px;
+	    padding: 4px;
+	    float: left;
+	}
+	
+		.container-featured ul{
+		    list-style: none;
+		}
+		
+		.container-featured ul li{
+		    height: 120px;
+		    width: 376px;
+		}
+		
+		.container-featured ul li img{
+		    margin-left: auto;
+			margin-right: auto;
+			display: block;
+			vertical-align: middle;
+			max-width:376px; 
+			max-height:120px;	
+			border-radius: 5px;
+		}
+
+
+/*----------------------------------------------
+ Content
+ ----------------------------------------------*/
+	
+	#content {
+		margin-top: 10px;
+	}
+	#content .caption {
+		display: none;
+	}
+	#widget-alert {
+		padding: 24px;
+		margin-bottom: 24px;
+	}
+	
+	.post-single {
+		overflow: hidden;
+		position: relative;
+		padding-bottom: 10px;
+		margin-bottom: 10px;
+		border-radius: 5px;
+		border-top: none;
+	}
+	
+	/*--------------Post-meta----------------*/
+	
+	.post-meta {
+		padding: 0;
+		margin-bottom: 5px;
+		position: relative;
+	}
+	
+	/*-------Title----------*/
+	
+	.post-meta .post-title h2 {
+		font-weight: normal;
+		margin-bottom: 0px;
+		padding: 10px 0 10px 20px;
+	}
+	
+	.post-meta .post-title h2:hover {
+	}
+	
+	.post-meta .post-title h2 a {
+	}
+		
+	.post-meta .post-title h2 a:hover {
+	}
+	
+	/*-------Date----------*/
+	
+	.post-meta .post-date{
+		display:inline-block;
+		float:right;
+		margin: 6px 20px 0 0;
+	}
+	
+	/* Code for a square that decorate date
+	  
+	   .post-meta .post-date{
+		position:absolute;
+		top:0px;
+		right:30px;
+		background-color: #5195aa;
+		width: 60px;
+		height: 60px;
+		z-index: 10;
+	}
+	
+	.post-meta .post-date:after{
+		content: '';
+		position: absolute;
+		bottom:0px;
+		right:-14px;
+		border-bottom: 7px solid transparent;
+		border-top: 7px solid #023c4e;
+		border-left: 7px solid #023c4e;
+		border-right: 7px solid transparent;
+		border-style:solid;
+		width:0;
+		height:0;
+	}
+	
+	.post-meta .post-date span{
+		position:absolute;
+		text-transform:uppercase;
+		color: #FFF;
+		font-family: "BebasNeueRegular", Arial, Helvetica, sans-serif;
+		font-size: 26px;
+		margin: 12px 5px;
+		text-shadow: 1px 1px 1px #023c4e;
+	}
+	*/
+	
+	/*-------Post Info----------*/
+	
+	.post-meta .post-info{
+		position:relative;
+		padding: 2px 0 2px 0;
+	}
+	
+	/*-------Comments----------*/
+	
+	.post-meta .post-info .comments {
+		display:inline-block;
+		padding-left:10px;
+	}
+	
+	.post-meta .post-info .comments span{
+		display:inline-block;
+		width: 25px;
+		height: 20px;
+		margin: 4px 4px 4px 4px;
+		border-radius: 3px;
+	}
+	
+		.post-meta .post-info .comments span a{
+			font-family: "OpenSansRegular", Arial, Helvetica, sans-serif;
+			font-size:14px;
+			padding-left:8px;
+		}
+		
+		.post-meta .post-info .comments span a:after{
+			content: '';
+			position: absolute;
+			bottom:12px;
+			left:39px;
+			border-style:solid;
+			width:0;
+			height:0;
+			z-index: 100;
+		}
+	
+	.post-meta .post-info .editor-data{
+		display:inline-block;
+		margin-left: 20px;
+	}
+	
+	
+	/*-------Post Content----------*/
+	
+	.post-content {
+		padding: 10px 20px 5px 20px;
+		overflow:hidden;
+	}
+	
+	.featured-thumbnail{
+		float:left;
+		width: 190px;
+		height:190px;
+		padding: 0px 10px 5px 0px;
+	}
+	
+	.featured-thumbnail img{
+		width: 190px;
+		height:190px;
+		border-radius: 7px;
+	}
+	
+	.post-content img{
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		max-width:628px; 
+		height:auto;
+		border-radius: 5px 5px 0 0;
+		margin-bottom: 5px;
+	}
+	
+	.more-link{
+		display: inline-block;
+		text-transform:uppercase;
+		font-size: 100%;
+		font-weight: bold;
+		float: right;
+		margin:5px 20px 5px 0;
+		padding: 20px;
+	}
+	
+	/*-------Post Social----------*/
+	
+	.post-social {
+		position:relative;
+		padding: 5px 20px 5px 20px;
+		overflow: hidden;
+	}
+	
+	.btn-social{
+		float: left;
+	}
+	
+	.post-social .fb{
+		padding-left:20px;
+		width: 80px;
+		height: 25px;
+		float: left;
+	}
+	
+/*----------------------------------------------
+Sidebar
+----------------------------------------------*/
+
+	#sidebar {
+	}
+	
+	#sidebar .widget-area {
+		margin-bottom: 20px;
+		margin-top: 10px;
+	}
+	#siebar ul, #sidebar li {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+	}
+	#sidebar .children {
+		padding-left: 10px;
+	}
+	#sidebar .children .children {
+		padding-left: 10px;
+	}
+	
+	#sidebar .widget-area ul {
+		border-radius: 0 0 5px 5px;
+		padding: 10px;
+	}
+	
+	#sidebar .widget-area ul h3 {
+		font-weight: normal;
+		padding: 5px 0px 5px 20px;
+		font-size: 16px;
+		text-transform: uppercase;
+	}
+	
+	#sidebar .widget-area ul ul {
+		padding: 10px;
+		border: none;
+	}
+	.textwidget {
+		padding: 10px;
+		border: none;
+	}
+
+/*----------------------------------------------
+	Footer
+----------------------------------------------*/	
+		
+	#footer{
+		margin-top:20px;
+		width:100%;
+	}
+	
+	#footer .container {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	
+	/*-------About Us----------*/
+	
+	#footer #about-us {
+		overflow:hidden;
+		font-size: 12px;
+	}
+
+		#footer #about-us #logo {
+			float:left;
+			height: 61px;
+			width: 195px;
+		}
+		#footer #about-us #logo img {
+			height: 100%;
+			width: 100%;
+		}
+		
+		#footer #about-us #description {
+			float: left;
+			padding: 15px 0 0 20px;
+		}
+		
+	/*-------Footer Content----------*/
+	
+	#footer-content {
+		position: relative;
+		padding: 2px 0 5px 0;
+	}
+	#footer ul, #footer li {
+		display: inline;
+		list-style: none;
+	}
+	#footer li a {
+		padding: 0 10px;
+	}
+	
+	/*-------Totop----------*/
+	
+	#btn-top{
+		display: none;
+	}
+
+	.totop {
+		position: absolute;
+		right: 100px;
+		top: -63px;
+		width: 64px;
+		height: 64px;
+	}
+	.totop:hover {
+		cursor: pointer;
+	}
+	
+	/*-------Blog meta----------*/
+
+	#blog-meta {
+		overflow: hidden;
+		font-size: 12px;
+	}
+	#blog-meta img {
+		height: 49px;
+		width: 150px;
+		display: inline-block;
+	}
+		#blog-meta #logo-sponsor {
+			float: left;
+		}
+		#blog-meta #copyright {
+			float: right;
+			margin: 30px 0 0 20px;
+			font-size: 11px;
+		}
+
+
+	

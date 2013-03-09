@@ -1,0 +1,18 @@
+/*
+ Theme Name: ByteBoard
+ Author: Instartius Corporation
+ Description:
+ Version: 1.0.1
+ */
+
+@import url("themeFonts.css");
+
+@import url("themeLayout.css");
+
+@import url("themeColors.css");
+
+@import url("themeDoracolBlogs.css");
+
+@import url("themeSocial.css");
+
+@import url("themeResponsiveDesign.css");

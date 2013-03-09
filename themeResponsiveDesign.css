@@ -1,0 +1,207 @@
+/*
+ Theme Name: ByteBoard
+ Author: Instartius Corporation
+ Description:
+ Version: 1.0.1
+ */
+
+
+
+/*----------------------------------------------------------------------------------------------*/
+/*                               RESPONSIVE DESING                                              */
+/*----------------------------------------------------------------------------------------------*/
+
+
+/*	13-column layout
+	60 px columns, 24 px gutters, 72 px margins, 1212 px total (extra space for scrollbars)
+	---------------------------------------------------------------------------------------
+	1     2      3      4      5      6      7      8      9      10     11     12     13
+	60px  144px  228px  312px  396px  480px  564px  648px  732px  816px  900px  984px  1068px	*/
+
+@media only screen and (min-width: 1150px) {
+	
+	.container {
+		
+	}
+	
+		#content {
+			
+		}
+		#sidebar {
+			
+		}
+	
+}
+
+@media only screen and (max-width: 1149px) and (min-width: 850px){
+	
+	.container {
+		
+	}
+		
+		#content {
+		}
+		#sidebar {
+		}
+		
+		#sidebar .widget-area ul{
+			padding: 5px;
+		}
+		
+		#sidebar .widget-area ul ul{
+			padding: 5px;
+			border:none;
+		}
+	
+}
+
+
+/*	5-column layout
+	60 px columns, 24 px gutters, 42 px margins, 480 px total
+	---------------------------------------------------------
+	1     2      3      4      5
+	60px  144px  228px  312px  396px	*/
+
+@media only screen and (max-width: 850px) and (min-width: 480px) {
+	
+	.container {
+		
+	}
+	
+		#logo,
+		#tagline {
+			position: relative;
+			line-height: 30px;
+		}
+		#logo img {
+			height: 70px;
+			width: 224px;		
+		}
+		#title {
+		display:inline-block;
+		float: none;
+		margin: 0 auto;
+	}
+	#header-advert {
+		display:inline-block;
+		margin: 0 auto;
+		height: 90px;
+		width: 728px;
+		box-shadow: 1px 1px 0px rgba(255,255,255,0.8);
+		float: none;
+	}
+	
+	#sidebar .widget-area ul{
+			padding: 5px;
+		}
+		
+		#sidebar .widget-area ul ul{
+			padding: 5px;
+			border:none;
+		}
+	
+	/*--------------Slider----------------*/
+	
+	.container-featured{
+		display: none;	
+	}
+		
+		
+		/*--------------Content----------------*/
+		
+		#content {
+			float: none;
+		}
+		
+		#content h2 {
+			font-size: 22px;
+			line-height: 36px;
+		}
+		
+		#sidebar {
+			float: none;
+			background: #eee;
+			margin-left: -42px;
+			margin-right: -42px;
+			padding-left: 52px;
+			padding-right: 52px;
+			border-bottom: 1px #ccc solid;
+		}
+		#footer .container {
+			padding-top: 0;
+		}
+			#footer-content {
+				border: 0;
+				padding: 10px;
+			}
+	
+}
+
+/*	3-column layout
+	60 px columns, 24 px gutters, 46 px margins, 320 px total
+	---------------------------------------------------------
+	1     2      3
+	60px  144px  228px	*/
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+	
+	.container {
+		
+	}
+	
+		#logo,
+		#tagline {
+			position: relative;
+			line-height: 30px;
+		}
+		#logo img {
+			height: 60px;
+			width: 192px;	
+		}
+		#tagline {
+			font-size: 16px;
+		}
+		
+		/*--------------Search----------------*/
+		
+
+	#nav-primary  .search input{
+		width: 80px;
+	}
+	
+	
+	#nav-primary  .search input#searchsubmit{
+		display: none;
+	}
+	
+	
+	/*--------------Slider----------------*/
+	
+	.container-carrousel, .container-featured{
+		display: none;	
+	}
+	
+}
+
+
+/*	3-column layout
+	60 px columns, 24 px gutters, 46 px margins, 320 px total
+	---------------------------------------------------------
+	1     2      3
+	60px  144px  228px	*/
+
+@media only screen and (max-width: 319px) {
+
+	#logo,
+		#tagline {
+			position: relative;
+			line-height: 30px;
+		}
+		#logo img {
+			height: 60px;
+			width: 192px;	
+		}
+		#tagline {
+			font-size: 16px;
+		}
+}

@@ -1,0 +1,111 @@
+/*-------Doracol Blogs----------*/
+
+#doracol-blogs{
+	width: 100%;
+}
+
+#doracol-blogs h4{
+	background: none;
+}
+
+.doracol-logo{
+	display: block;
+	width: 300px;
+	height: 150px;
+	background: transparent url("images/doracol-blogs/DORACOL.png") 0 0 no-repeat;
+	margin: 0 auto;
+}
+
+.doracol-logo:hover{
+	display: block;
+	width: 300px;
+	height: 150px;
+	background: transparent url("images/doracol-blogs/DORACOL-original.png") 0 0 no-repeat;
+	margin: 0 auto;
+}
+
+#menu-doracol-blogs{
+	width: 870px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+#menu-doracol-blogs li {
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 100px;
+	margin-left: 50px;
+	border-radius: 3px;
+}
+
+#menu-doracol-blogs li span{
+	display: none;
+}
+
+
+#menu-item-84{
+	background: transparent url("images/doracol-blogs/DORACOL.png") no-repeat center; 
+}
+
+#brigada-sos{
+	background: transparent url("images/doracol-blogs/brigada-sos.png") no-repeat center;
+}
+
+#brigada-sos:hover{
+	background: transparent url("images/doracol-blogs/brigada-sos-original.png") no-repeat center;
+}
+
+ /*Catedratic*/
+#catedratic-logo{
+	background: transparent url("images/doracol-blogs/catedratic.png") no-repeat center;
+}
+
+#catedratic-logo:hover{
+	background: transparent url("images/doracol-blogs/catedratic-original.png") no-repeat center;
+}
+
+/*El despacio*/
+#eldespacio-logo{
+	background: transparent url("images/doracol-blogs/el-despacio.png") no-repeat center;
+}
+
+#eldespacio-logo:hover{
+	background: transparent url("images/doracol-blogs/el-despacio-original.png") no-repeat center;
+}
+
+/*Desenfoque*/
+#desenfoque-logo{
+	background: transparent url("images/doracol-blogs/desenfoque.png") no-repeat center;
+}
+
+#desenfoque-logo:hover{
+	background: transparent url("images/doracol-blogs/desenfoque-original.png") no-repeat center;
+}
+
+/*Final Fantasy*/
+
+#ffantasyc-logo{ 
+	background: transparent url("images/doracol-blogs/final-fantasy-colombia.png") no-repeat center;
+}
+
+#ffantasyc-logo:hover{ 
+	background: transparent url("images/doracol-blogs/final-fantasy-colombia-original.png") no-repeat center;
+}
+
+/*IN GAME*/
+#ing4me-logo{
+	background: transparent url("images/doracol-blogs/ing4me.png") 0 0 no-repeat;
+}
+
+#ing4me-logo:hover{
+	background: transparent url("images/doracol-blogs/ing4me-original.png") 0 0 no-repeat;
+}
+
+#zombiecol-logo{
+	background: transparent url("images/doracol-blogs/zombiecol.png") 0 0 no-repeat;
+}
+
+#zombiecol-logo:hover{
+	background: transparent url("images/doracol-blogs/zombiecol-original.png") 0 0 no-repeat;
+}
