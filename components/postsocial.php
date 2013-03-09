@@ -12,7 +12,9 @@
 	<g:plusone size="medium" href="<? PostSocial::PostPermalink() ?>"></g:plusone>
 </div>
 <div class="tw btn-social">
-	<a href="https://twitter.com/share" class="twitter-share-button" data-url="<? PostSocial::PostPermalink() ?>" data-text="<? PostSocial::PostTitle() ?>" data-via="foreverbyteco" data-lang="es" data-related="Doracol_">Twittear</a>
+	<a href="https://twitter.com/share" class="twitter-share-button" data-url="<?
+    PostSocial::PostPermalink() ?>" data-text="<? PostSocial::PostTitle() ?>" data-via="Fbytecom"
+       data-lang="es" data-related="Doracol_">Twittear</a>
 </div>
 <div class="su btn-social">
 	<su:badge layout="2" location="<? PostSocial::PostPermalink() ?>"></su:badge>
